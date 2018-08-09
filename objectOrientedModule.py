@@ -31,3 +31,6 @@ def runme():
     myDog.printMe2()
     myAnimal.printMe()
     myAnimal.printMe2()
+
+def dummy():
+    print("dummy method")
