@@ -1,4 +1,7 @@
-print("hello world!")
+import mymodule
+import listFunctions
+import objectOrientedModule
+
 
 def printMe(*arg, **kwargs):
     print("arg is")
@@ -36,10 +39,19 @@ class Animal:
 class Horse(Animal):
     type = "horse"
 
-a = Animal("dummy")
-b = Horse("second dummy");
-a.printInfo()
-b.printInfo()
+#mymodule.greeting("Jonathan")
+#listFunctions.listfunc()
+#listFunctions.tupleFunctions()
+#listFunctions.setFunctions()
+#listFunctions.dictFunctions()
+objectOrientedModule.runme()
+
+
+#a = Animal("dummy")
+#b = Horse("second dummy");
+#a.printInfo()
+#b.printInfo()
+
 
 
 
