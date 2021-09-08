@@ -16,7 +16,7 @@ import dbcode
 
 
 
-dbcode.dbcode()
+dbcode.db_code()
 
 #a = Animal("dummy")
 #b = Horse("second dummy");

@@ -1,12 +1,10 @@
 def runme():
     print("In pyFunctions")
 
-    #printme(1,2,3,name='x', lastname='y')
-    #printMe1(1,2,3,name='x', lastname='y')
-    myDic = {'name':'gal', 'lastname': 'netanel'}
-    printMe2('1', 2, 3, **myDic)
-
-
+    # printme(1,2,3,name='x', lastname='y')
+    # printMe1(1,2,3,name='x', lastname='y')
+    my_dic = {'name': 'gal', 'lastname': 'netanel'}
+    print_me_2('1', 2, 3, **my_dic)
 
 
 def printMe1(*arg, **kwargs):
@@ -24,8 +22,9 @@ def printMe1(*arg, **kwargs):
     for i in kwargs:
         print(i + ", " + kwargs[i])
 
-def printMe2(firstParam , *arg, **kwargs):
-    print("firstParam is " + firstParam)
+
+def print_me_2(first_param, *arg, **kwargs):
+    print("firstParam is " + first_param)
 
     print("arg is")
     print(arg)
@@ -40,3 +39,6 @@ def printMe2(firstParam , *arg, **kwargs):
     print("print loop of kwarg")
     for i in kwargs:
         print(i + ", " + kwargs[i])
+
+
+runme()
