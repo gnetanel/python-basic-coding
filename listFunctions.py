@@ -1,6 +1,5 @@
 def listfunc():
     print("in func1 of list functions module")
-
     myList = ['one', 'two']
     myList2 = list(('x, y', 'z'))
     myList2.append('w')
